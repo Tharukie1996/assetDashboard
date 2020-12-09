@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@400;900&display=swap');
 
-.trl-header {
-    background-color: rgba(101, 173, 134, 1);
-    padding: 10px;
+.ed-desc-p {
     font-family: 'Oswald', sans-serif;
     color: rgba(0, 0, 0, 0.6);
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    display: flex;
+}
+
+.ed-desc-p > p {
+    padding: 20px 0px 0px 60px;
 }
